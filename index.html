@@ -1,0 +1,24 @@
+<!-- Web page with JS functionality that clicks through a list of planets in our
+ solar system. Button that goes through the next and previous planet -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="styles.css">
+</head>
+<body>
+    <h1>Planets</h1>
+    <p>index: <span id = "counter"></span></p>
+    <button id = "previous" onclick ="decrementIndex()">Previous</button>
+    <button id = "next" onclick = "incrementIndex()">Next</button>
+    <h2 id = "planetName"></h2>
+    <p id = "inner"></p>
+    <div class = "planet"></div>
+
+    <script src="script.js"></script>
+   
+</body>
+</html>
